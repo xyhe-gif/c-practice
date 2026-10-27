@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main(){
+	int x;
+	scanf("%d",&x);
+	printf("你的成绩是：%d\n",x);
+	int y=x/10;
+	switch (y) {
+		case 10:
+		case 9:
+			printf("你的等级是:优秀");
+			break;
+		case 8:
+			printf("你的等级是:良好");
+			break;
+		case 7:
+			printf("你的等级是:中等");
+			break;
+		case 6:
+			printf("你的等级是:及格");
+			break;
+		case 5:
+		case 4:
+		case 3:
+		case 2:
+		case 1:
+		case 0:
+		    printf("你的等级是:不及格");
+		    break;
+	}
+	return 0;
+}
