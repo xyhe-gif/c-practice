@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+	int i=1;
+	int j;
+	for (i;i<=9;i++) { 
+	
+		for (j=1;j<=i;j++) {
+			if (j==6) break;
+			printf("%d*%-d=%-3d", j , i, j*i);
+			
+	}
+			printf("\n");
+		
+		
+	}
+	return 0;
+}
